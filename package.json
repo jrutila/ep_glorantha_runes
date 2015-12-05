@@ -1,11 +1,10 @@
 {
-  "name": "ep_special_characters",
-  "description": "Insert special characters into a pad",
-  "version": "0.0.6",
+  "name": "ep_glorantha_runes",
+  "description": "Insert Glorantha runes into a pad",
+  "version": "0.0.1",
   "author": {
-    "name": "Johnyma22",
-    "email": "john@mclear.co.uk",
-    "url": "http://mclear.co.uk"
+    "name": "Juho Rutila",
+    "email": "juho.rutila@iki.fi",
   },
   "dependencies": {},
   "engines": {
