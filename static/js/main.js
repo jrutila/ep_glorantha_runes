@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".insertGloranthaRune").click(function () {
+  $(".insertGloranthaRune-disabled").click(function () {
     var module = $("#gloranthaRuneModal");
     if (module.css('display') != "none") {
       module.slideUp("fast");

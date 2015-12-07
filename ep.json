@@ -10,10 +10,11 @@
         "eejsBlock_dd_insert" : "ep_glorantha_runes/hooks"
       },
       "client_hooks": {
-        "aceInitInnerdocbodyHead": "ep_glorantha_runes/static/js/hooks:aceInitInnerdocbodyHead",
-        "aceAttribsToClasses": "ep_glorantha_runes/static/js/hooks:aceAttribsToClasses",
-        "aceCreateDomLine": "ep_glorantha_runes/static/js/hooks:aceCreateDomLine",
-        "aceInitialized": "ep_glorantha_runes/static/js/hooks:aceInitialized"
+        "postAceInit": "ep_glorantha_runes/static/js/index",
+        "aceInitialized": "ep_glorantha_runes/static/js/index",
+        "aceCreateDomLine": "ep_glorantha_runes/static/js/index",
+        "aceAttribsToClasses": "ep_glorantha_runes/static/js/index",
+        "aceInitInnerdocbodyHead": "ep_glorantha_runes/static/js/index"
       }
     }
   ]
