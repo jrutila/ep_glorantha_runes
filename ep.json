@@ -12,7 +12,8 @@
       "client_hooks": {
         "aceInitInnerdocbodyHead": "ep_glorantha_runes/static/js/hooks:aceInitInnerdocbodyHead",
         "aceAttribsToClasses": "ep_glorantha_runes/static/js/hooks:aceAttribsToClasses",
-        "aceCreateDomLine": "ep_glorantha_runes/static/js/hooks:aceCreateDomLine"
+        "aceCreateDomLine": "ep_glorantha_runes/static/js/hooks:aceCreateDomLine",
+        "aceInitialized": "ep_glorantha_runes/static/js/hooks:aceInitialized"
       }
     }
   ]

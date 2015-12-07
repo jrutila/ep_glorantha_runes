@@ -1,4 +1,4 @@
-#specialCharactersModal {
+#gloranthaRuneModal {
   position: absolute;
   top: 110px;
   right: 20px;
@@ -7,18 +7,18 @@
   max-height:600px;
 }
 
-#specialCharactersModal > textarea{
+#gloranthaRuneModal > textarea{
   max-width:99%;
 }
 
-.buttonicon-special-characters { 
+.buttonicon-glorantha-runes { 
   background: none; 
   color:#666;
   font-size:18px;
   line-height:18px;
 }
 
-.specialCharactersButton {
+.gloranthaRunesButton {
   padding:10px;
 }
 
@@ -27,7 +27,7 @@
   color:red;
 } 
 
-.specialChar{
+.gloranthaRune{
   list-style-type:none;
   border: solid 1px #666;
   text-align:center;
@@ -40,7 +40,7 @@
   overflow:hidden;
 }
 
-.specialChars{
+.gloranthaRunes{
   overflow:auto;
   scrolling:auto;
   max-height:500px;

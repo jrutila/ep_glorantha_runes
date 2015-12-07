@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'glorantha_runes';
+  src: url('../font/glorantha_runes.eot?83447106');
+  src: url('../font/glorantha_runes.eot?83447106#iefix') format('embedded-opentype'),
+       url('../font/glorantha_runes.woff?83447106') format('woff'),
+       url('../font/glorantha_runes.ttf?83447106') format('truetype'),
+       url('../font/glorantha_runes.svg?83447106#glorantha_runes') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'glorantha_runes';
+    src: url('../font/glorantha_runes.svg?83447106#glorantha_runes') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "glorantha_runes";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-man:before { content: '\2c'; } /* ',' */
+.icon-fire:before { content: '\2e'; } /* '.' */
+.icon-moon:before { content: '\2f'; } /* '/' */
+.icon-zero:before { content: '\30'; } /* '0' */
+.icon-moon-dying:before { content: '\31'; } /* '1' */
+.icon-moon-crescent-go:before { content: '\32'; } /* '2' */
+.icon-moon-full-half:before { content: '\33'; } /* '3' */
+.icon-moon-full:before { content: '\34'; } /* '4' */
+.icon-moon-empty-half:before { content: '\35'; } /* '5' */
+.icon-moon-crescent-come:before { content: '\36'; } /* '6' */
+.icon-moon-black:before { content: '\37'; } /* '7' */
+.icon-chaos:before { content: '\3f'; } /* '?' */
+.icon-dragonewt:before { content: '\41'; } /* 'A' */
+.icon-beast:before { content: '\42'; } /* 'B' */
+.icon-bear:before { content: '\43'; } /* 'C' */
+.icon-heler:before { content: '\45'; } /* 'E' */
+.icon-barntar:before { content: '\46'; } /* 'F' */
+.icon-sartar:before { content: '\47'; } /* 'G' */
+.icon-hell:before { content: '\48'; } /* 'H' */
+.icon-luck:before { content: '\4b'; } /* 'K' */
+.icon-fire-alt:before { content: '\4c'; } /* 'L' */
+.icon-M:before { content: '\4d'; } /* 'M' */
+.icon-light:before { content: '\4f'; } /* 'O' */
+.icon-pamalt:before { content: '\50'; } /* 'P' */
+.icon-Q:before { content: '\51'; } /* 'Q' */
+.icon-magic:before { content: '\52'; } /* 'R' */
+.icon-infinity:before { content: '\53'; } /* 'S' */
+.icon-eternal-battle:before { content: '\56'; } /* 'V' */
+.icon-mastery:before { content: '\57'; } /* 'W' */
+.icon-fate:before { content: '\58'; } /* 'X' */
+.icon-yinkin:before { content: '\59'; } /* 'Y' */
+.icon-law:before { content: '\61'; } /* 'a' */
+.icon-spirit:before { content: '\62'; } /* 'b' */
+.icon-stasis:before { content: '\63'; } /* 'c' */
+.icon-dragon:before { content: '\64'; } /* 'd' */
+.icon-earth:before { content: '\65'; } /* 'e' */
+.icon-lightbringers:before { content: '\66'; } /* 'f' */
+.icon-air:before { content: '\67'; } /* 'g' */
+.icon-trade:before { content: '\68'; } /* 'h' */
+.icon-illusion:before { content: '\69'; } /* 'i' */
+.icon-disorder:before { content: '\6a'; } /* 'j' */
+.icon-shargash:before { content: '\6b'; } /* 'k' */
+.icon-harmony:before { content: '\6c'; } /* 'l' */
+.icon-horse:before { content: '\6e'; } /* 'n' */
+.icon-darkness:before { content: '\6f'; } /* 'o' */
+.icon-plant:before { content: '\70'; } /* 'p' */
+.icon-movement:before { content: '\73'; } /* 's' */
+.icon-death:before { content: '\74'; } /* 't' */
+.icon-unlife:before { content: '\75'; } /* 'u' */
+.icon-water:before { content: '\77'; } /* 'w' */
+.icon-life:before { content: '\78'; } /* 'x' */
+.icon-truth:before { content: '\79'; } /* 'y' */
