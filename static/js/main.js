@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".insertGloranthaRune-disabled").click(function () {
+  $(".insertGloranthaRune").click(function () {
     var module = $("#gloranthaRuneModal");
     if (module.css('display') != "none") {
       module.slideUp("fast");
@@ -12,13 +12,17 @@ $(document).ready(function () {
     var char = ($(this).text());
     var padeditor = require('ep_etherpad-lite/static/js/pad_editor').padeditor;
     $("#gloranthaRuneModal").slideUp("fast");
-    return padeditor.ace.callWithAce(function (ace) {
-      //rep = ace.ace_getRep();
-      //ace.ace_replaceRange(rep.selStart, rep.selEnd, char);
-      ace.ace_doInsertSymbol(char);
+    padeditor.ace.callWithAce(function (ace) {
+      var rep = ace.ace_getRep();
+      ace.ace_replaceRange(rep.selStart, rep.selEnd, char);
+    }, "gloranthaRunes", true);
+    padeditor.ace.callWithAce(function (ace) {
+      var rep = ace.ace_getRep();
+      rep.selStart[1]--;
+      ace.ace_doInsertColorz(char);
+      rep.selStart[1]++;
       ace.ace_focus();
     }, "gloranthaRunes", true);
-    
   });
 
   var runes = ",./01234567?ABCEFGHKLMOPQRSVWXYabcdefghijklnopstuwxy";
